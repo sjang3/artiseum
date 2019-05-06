@@ -1,0 +1,116 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Seunghui Jang Artiseum Museum</title>
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" type="image/x-icon" href="images/fav-icon.png" />
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<!----webfonts---->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+		<!----//webfonts---->
+		<!---start-click-drop-down-menu----->
+		<script src="js/jquery.min.js"></script>
+        <!----start-dropdown--->
+         <script type="text/javascript">
+			var $ = jQuery.noConflict();
+				$(function() {
+					$('#activator').click(function(){
+						$('#box').animate({'top':'0px'},500);
+					});
+					$('#boxclose').click(function(){
+					$('#box').animate({'top':'-700px'},500);
+					});
+				});
+				$(document).ready(function(){
+				//Hide (Collapse) the toggle containers on load
+				$(".toggle_container").hide(); 
+				//Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+				$(".trigger").click(function(){
+					$(this).toggleClass("active").next().slideToggle("slow");
+						return false; //Prevent the browser jump to the link anchor
+				});
+									
+			});
+		</script>
+        <!----//End-dropdown--->
+	<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/us_US/sdk.js#xfbml=1&version=v3.3&appId=286872951796040&autoLogAppEvents=1"></script>
+	</head>
+	<body>
+		<!---start-wrap---->
+			<!---start-header---->
+			<div class="header">
+				<div class="wrap">
+				<div class="logo">
+					<a href="index.html"><img src="images/logo.png" title="pinbal" /></a>
+				</div>
+				<div class="nav-icon">
+					 <a href="#" class="right_bt" id="activator"><span> </span> </a>
+				</div>
+				 <div class="box" id="box">
+					 <div class="box_content">        					                         
+						<div class="box_content_center">
+						 	<div class="form_content">
+								<div class="menu_box_list">
+									<ul>
+										<li><a href="index.html"><span>home</span></a></li>
+										<li><a href="single-page.html"><span>About</span></a></li>
+										<li><a href="contact.html"><span>Contact</span></a></li>
+										<div class="clear"> </div>
+									</ul>
+								</div>
+								<a class="boxclose" id="boxclose"> <span> </span></a>
+							</div>                                  
+						</div> 	
+					</div> 
+				</div>       	  
+				
+			
+				<div class="clear"> </div>
+			</div>
+		</div>
+		<!---//End-header---->
+		<!---start-content---->
+		<div class="content">
+			<div class="wrap">
+			<div class="single-page">
+							<div class="single-page-artical">
+								<div class="artical-content">
+									<img src="images/img6.jpeg" title="banner1">
+									<h3><a href="#">The night cafe - VanGogh</a></h3>
+									<p>The painting was executed on industrial primed canvas of size 30 (French standard). It depicts the interior of the cafe, with a half-curtained doorway in the center background leading, presumably, to more private quarters. Five customers sit at tables along the walls to the left and right, and a waiter in a light coat, to one side of a billiard table near the center of the room, stands facing the viewer.
+
+The five customers depicted in the scene have been described as "three drunks and derelicts in a large public room huddled down in sleep or stupor." One scholar wrote, "The cafe was an all-night haunt of local down-and-outs and prostitutes, who are depicted slouched at tables and drinking together at the far end of the room.".
+
+In wildly contrasting, vivid colours, the ceiling is green, the upper walls red, the glowing, gas ceiling lamps and floor largely yellow. The paint is applied thickly, with many of the lines of the room leading toward the door in the back. The perspective looks somewhat downward toward the floor. </p> 
+								    </div>
+								
+		  						 <div class="clear"> </div>
+							</div>
+							<!---start-comments-section--->
+							<div class="comment-section">
+				<div class="grids_of_2">
+					<h2>Comments</h2>
+					<div class="grid1_of_2">
+						<div class="fb-comments" data-href="https://sjang3.github.io/img6.html" data-width="100%" data-numposts="5"></div>
+					</div>
+			</div>
+							<!---//End-comments-section--->
+						</div>
+						 </div>
+		</div>
+		<!----start-footer--->
+
+		<!----//End-footer--->
+		<!---//End-wrap---->
+	</body>
+</html>
+
