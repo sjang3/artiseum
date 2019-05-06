@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sjang3/artiseum/issues"
   },
+   "engines": {
+    "node": "10.15.3"
+  },
   "homepage": "https://github.com/sjang3/artiseum#readme"
 }
